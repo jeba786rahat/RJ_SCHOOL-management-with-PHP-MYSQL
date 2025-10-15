@@ -1,0 +1,133 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            nav {
+                position: fixed;
+                background-color: skyblue;
+                height: 80px;
+                width: 100%;
+                z-index: 1;
+            }
+            
+            .logo {
+                color: white;
+                font-size: 35px;
+                position: relative;
+                left: 5%;
+                line-height: 80px;
+                padding: 0 100px;
+                font-weight: bold;
+            }
+            
+            ul {
+                position: relative;
+                float: right;
+                margin-right: 20px;
+            }
+            
+            nav ul {
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 80px;
+                list-style: none;
+                /* removes bullets */
+                padding: 30px;
+                gap: 20px;
+                /* adds 20px space between li items */
+            }
+            
+            ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 17px;
+            }
+            
+            .selection1 {
+                padding-top: 80px;
+            }
+            
+            .img-text {
+                position: absolute;
+                top: 20%;
+                /* vertically center */
+                left: 50%;
+                /* horizontally center */
+                transform: translate(-50%, -50%);
+                /* true centering */
+                color: white;
+                background-color: rgba(0, 0, 128, 0.7);
+                /* semi-transparent midnight blue */
+                padding: 10px 30px;
+                font-size: 30px;
+                border-radius: 8px;
+            }
+            
+            .row {
+                display: flex;
+                justify-content: space-around;
+                /* or space-between */
+                align-items: center;
+            }
+            
+            .row img {
+                max-width: 60%;
+                /* 3 images in one row */
+                height: auto;
+            }
+            
+            .container {
+                padding-top: 10px;
+            }
+            
+            .label_text {
+                display: inline-block;
+                width: 100px;
+                text-align: right;
+                padding-right: 10px;
+            }
+            
+            .input_deg {
+                width: 30%;
+                height: 40px;
+                border-radius: 20px;
+                border: 1px solid blue;
+            }
+            
+            .adm_int {
+                padding-top: 10px;
+            }
+            
+            .input_txt {
+                width: 30%;
+                height: 40px;
+                border-radius: 20px;
+                border: 1px solid blue;
+            }
+            
+            #submit {
+                position: relative;
+                width: 15%;
+                left: 5%;
+            }
+            
+            footer {
+                text-align: center;
+                background: #1e262f;
+                color: #fff;
+                padding: 15px;
+                margin-top: 30px;
+            }
+            
+            .footer_text {
+                text-align: center;
+                color: wheat;
+                top: 20%;
+                position: relative;
+            }
+            
+            .adm {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
